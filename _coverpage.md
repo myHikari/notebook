@@ -2,5 +2,5 @@
 
 # Dead Notebook
 
-[GitHub](https://github.com/myHikari)
+[GitHub](https://github.com/myHikari/notebook)
 [Get Started](computer-network/)
