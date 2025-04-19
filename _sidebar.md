@@ -2,4 +2,4 @@
 
 - [计算机网络](computer-network/)
 
-- [操作系统](operation-system/)
+- [操作系统](operating-system/)
