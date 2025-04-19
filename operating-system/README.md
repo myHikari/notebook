@@ -265,7 +265,7 @@
 
 ## 1.8 OS引导
 
-<img src="images/IMG_E0230.JPG"  />
+![](images/IMG_E0230.JPG)
 
 操作系统引导（开机过程）
 
@@ -286,7 +286,7 @@
 
 ### 第一类虚拟机
 
-<img src="images/image-vm-1.png" alt="img" style="zoom:80%;" />
+![](images/image-vm-1.png)
 
 虚拟机直接运行在硬件上，虚拟机管理程序将计算机的硬件分配给多个虚拟机
 
@@ -300,7 +300,7 @@
 
 ### 第二类虚拟机
 
-<img src="images/image-vm-2.png" alt="img" style="zoom: 80%;" />
+![](images/image-vm-2.png)
 
 虚拟机运行在宿主操作系统上，例如常用的VMware
 
@@ -3703,7 +3703,7 @@ IO设备的电子部件通常是一块插入主板扩充槽的印刷电路版。
 
 核心思想：**轮询**
 
-<img src="images/image-io-lunxun.jpg" alt="img" style="zoom:50%;" />
+![](images/image-io-lunxun.jpg)
 
 
 
@@ -3738,7 +3738,7 @@ IO设备的电子部件通常是一块插入主板扩充槽的印刷电路版。
 3. 处理中断的过程中，CPU从I/O控制器读一个字的数据传送到CPU寄存器，再写入主存。
 4. 接着，CPU恢复等待I/O的进程（或其他进程）的运行环境，然后继续执行
 
-<img src="images/image-io-zhongduan.png" alt="img" style="zoom: 50%;" />
+![](images/image-io-zhongduan.png)
 
 注意：CPU会在每个指令周期的末尾检查中断；中断处理过程中需要保存、恢复进程的运行环境；此过程是需要一定时间开销的。因此终端的频率太高，也会降低系统性能。
 
@@ -3863,7 +3863,7 @@ IO设备的电子部件通常是一块插入主板扩充槽的印刷电路版。
 
 ## 5.4 IO软件层次结构
 
-<img src="images/image-io-software-level.png" alt="img" style="zoom: 80%;" />
+![](images/image-io-software-level.png)
 
 IO软件的层次
 
@@ -4159,11 +4159,11 @@ IO软件的层次
 
 当 `T > C` 时：
 
-<img src="images/image-a-cache-space-1.png" style="zoom:50%;" />
+![](images/image-a-cache-space-1.png)
 
 当 `T < C` 时：
 
-<img src="images/image-a-cache-space-2.png" style="zoom:50%;" />
+![](images/image-a-cache-space-2.png)
 
 综上，可得单缓冲策略处理一块数据的平均耗时为`M𝑎𝑥(𝐶, 𝑇) + 𝑀`
 
@@ -4177,13 +4177,13 @@ IO软件的层次
 
 当 `T < C + M` 时：
 
-<img src="images/image-two-cache-space-1.png" style="zoom:50%;" />
+![](images/image-two-cache-space-1.png)
 
 注：M(1)表示“将缓冲区1中的数据传送到工作区”；M(2)表示“将缓冲区2中的数据传送到工作区”。
 
 当 `T > C + M` 时：
 
-<img src="images/image-two-cache-space-2.png" style="zoom:50%;" />
+![](images/image-two-cache-space-2.png)
 
 综上，可得双缓冲策略处理一块数据的平均耗时为`M𝑎𝑥(𝐶 + 𝑀, 𝑇)`
 
@@ -4195,7 +4195,7 @@ IO软件的层次
 >
 > 在通信中也可以利用到缓冲区来实现信息的交换。实际上，管道通信中的“管道”就是缓冲区，要实现数据的双向传输，必须设置两个管道，也就是采用了双缓冲策略。
 >
-> <img src="images/IMG_E0226.JPG" style="zoom:50%;" />
+> ![](images/IMG_E0226.JPG)
 
 
 
